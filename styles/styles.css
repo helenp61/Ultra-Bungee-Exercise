@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*margin-bottom: 30px; deleted in Learning Activity 3.1, #1*/
+header {
+    background-color: #00aeff;
+    height: 100px;
+    text-align: left;
+    width: 100%;
+
+}
+
+.logo {
+    padding: 5px 50px;
+    width: 200px;
+}
+
+nav {
+    color:white;
+    float: right;
+    padding: 40px 50px 0px 0px;
+}
+
+/*Added in Section 3.2*/ 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Added in Section 3.2*/ 
+nav li {
+    display: inline-block;
+}
+
+/*Added in Section 3.2*/ 
+nav li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Added in Section 3.2*/
+#intro {
+    background: black url(../img/ultra-bungee-hero.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 250px;        
+}
+
+h1{
+    font-size: 40px;
+}
+
+.hero-img {
+    width: 800px;
+
+}
+
+
+/*Added during Learning Activity 3.1, # 1*/
+.intro-block {
+    background-color: #bcf200;
+    color: #003b63;
+    margin: 0 auto;
+    margin-top: 260px;
+    max-width: 900px;
+    padding: 30px 30px;
+}
+
+/*Added in Section 3.2*/
+.intro-block a{
+    display: inline-block;
+}
+
+
+.button {
+    color: #003b63; 
+    font-size: 19px;    
+    margin: 30px 5px;
+    padding: 15px 15px;
+    border: 2px solid #003b63; /*Added in Section 3.2*/
+    min-width: 150px; /*Added in Section 3.2*/
+    text-decoration: none; /*Added in Section 3.2*/
+}
+
+/* Added during Learning Activity 3.1, #2 */
+article {
+    margin: 0 auto;
+    width: 90%;
+
+}
+/* Added during Learning Activity 3.1, #2 */
+article a {
+    display: inline-block;
+}
+
+
+h4 {
+    color: #003B63;
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+h5 {
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+#bridge-info div,
+#general-info article {
+    margin: 0px auto 60px auto; 
+    text-align: center;
+    width: 60%;
+}
+
+#bridge-header {
+    background: black url(../img/bridge_hero_image.jpg) no-repeat center;
+    background-size: cover;
+    padding: 160px 0px 60px 0px;
+    margin-bottom: 60px;
+}
+
+#bridge-header h1 { 
+    color: rgb(251, 226, 5);
+    background-color: #003B63;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.gallery-info {
+    padding: 20px;
+}
+
+.info-list {
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+}
+
+.info-list li {
+    padding-bottom: 10px;
+}
+
+/* From here to end added for 'content' pages (Bridge, Canyon, Tower) */
+h2 {
+    color: #003B63;
+    font-size: 4.6em; /* Changed for Merit - Extension Acitvity G - formerly 80px; */
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 1.7em; /* Changed for Merit - Extension Acitvity G - formerly 30px; */
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.three-cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+}
+
+/*margin-top: 40px; removed in Learning Activity 3.1, #1*/
+footer {
+    background-color: #ed107f;
+    color: white;
+    padding: 30px 0px;
+}
