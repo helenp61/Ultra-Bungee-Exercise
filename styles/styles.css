@@ -45,7 +45,7 @@ header ul li a {
 }
 /* now we need to add the background img */
 .bg {
-    background: url("img/ultra-bungee-hero.jpg");
+    background: url("Ultra Bungee Exercise/img/ultra-bungee-hero.jpg") ;
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,9 +54,10 @@ header ul li a {
 }
 .banner {
     height: 25vh;
-    background-color: darkseagreen;
+    background-color: rgb(9, 244, 9);
     opacity: 0.5;
     position:absolute;
     width: 100%;
     bottom: 10vh;
+    
 }
