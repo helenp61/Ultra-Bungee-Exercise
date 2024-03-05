@@ -55,7 +55,7 @@ header ul li a {
 .banner {
     height: 25vh;
     background-color: rgb(9, 244, 9);
-    opacity: 0.5;
+    opacity: 0.8;
     position:absolute;
     width: 100%;
     bottom: 10vh;
